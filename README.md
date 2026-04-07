@@ -1,15 +1,15 @@
 # 📊 TV Shows Data Analysis
 
-Data analysis project based on TVMaze API data.
+Performed data collection, analysis, and visualization of TV shows data using the TVMaze API.
 
-The dataset was collected using a two-stage web scraping pipeline and analyzed to explore relationships between ratings, genres, runtime, and episode count.
+Built a two-stage web scraping pipeline to collect and enrich a dataset of 10,000+ shows, including episode counts. Conducted exploratory data analysis (EDA) to identify patterns in ratings, genres, runtime, and series length.
 
 ## 🔍 Key Findings
 
 - Most shows have ratings between **6 and 8**
-- **Drama and Comedy** are the most common genres
-- Runtime has **almost no correlation** with rating (≈ 0.04)
-- Episode count has a **weak negative correlation** with rating (≈ -0.13)
+- **Drama and Comedy** dominate across the dataset
+- Runtime has **almost no impact** on ratings (≈ 0.04)
+- Episode count shows a **weak negative relationship** with ratings (≈ -0.13)
 
 ## 🛠️ Tech Stack
 
@@ -20,4 +20,4 @@ The dataset was collected using a two-stage web scraping pipeline and analyzed t
 
 ## 📁 Files
 
-- `Team8.ipynb` — data collection and analysis
+- `Team8.ipynb` — data collection, analysis, and visualization
